@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require './config/environment'
+require './lib/cli'
+
+cli = Cli.new
+
+cli.start
